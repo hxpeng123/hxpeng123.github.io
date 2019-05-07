@@ -9,12 +9,36 @@ header {
     padding-top: 40px;
     padding-bottom: 40px;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-    background: #2e7bcf url(../images/header.jpg) no-repeat;
-    border-bottom: solid 1px #275da1;
+    background: #fff;
+    border-bottom: 0px;
     height: 200px;
 }
 
+header h1,header h2 {
+    color: #000;
+}
 
 header h2 {
+    margin-top: 30px;
+}
+
+
+body {
+    background-color: #f2f4f5!important;
+}
+
+
+body article {
+    -webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-top: 60px;
+    padding: 45px 50px 50px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+body article:first-child {
     margin-top: 30px;
 }
